@@ -1,0 +1,101 @@
+body{
+    background-color: #F1CECE;
+}
+
+.reg-img{
+    
+    display: block;
+    width: 456px;
+    height: 563px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-height-row{
+    height: 100%;
+}
+
+.sleepyChris{
+    display: block;
+    width: 756px;
+    height: 900px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gfStealer{
+    display: block;
+    width: 456px;
+    height: 900px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.togetherForever{
+    display: block;
+    width: 756px;
+    height: 600px;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body{
+    font-size: 1.5rem;
+}
+
+/*############################              btn                     #############################*/
+
+.btn-tl{
+    background-color: red;
+    border-color: red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+    width: 100%;
+    height: 100%;
+
+    font-size: 35px; 
+    line-height: 1.2; 
+}
+
+.btn-tr{
+    background-color: #D99F00;
+    border-color: #D99F00;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 100%;
+    height: 100%;
+    font-size: 35px; 
+    line-height: 1.2; 
+}
+
+.btn-br{
+    background-color: #6da773;
+    border-color: #6da773;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 100%;
+    height: 100%;
+    font-size: 35px; 
+    line-height: 1.2; 
+}
+
+.btn-bl{
+    background-color: #4648E2;
+    border-color: #4648E2;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 100%;
+    height: 100%;
+    font-size: 35px; 
+    line-height: 1.2; 
+}
+
+
+
+
+/*############################              container               #############################*/
+
+.answer-container{
+    padding: 0%;
+}
+
+.img-container{
+    margin-top: 10%;
+}

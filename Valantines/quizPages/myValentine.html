@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Valentine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+    
+    
+<body>
+    <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+        <div class="row w-100">
+            <div class="col-12 text-center comment-container">
+              <h1 class="display-4 display-sm-3 display-md-2 display-lg-1 mt-5 mt-sm-4 mt-md-3 mt-lg-2">And now for the final
+                <br>
+                Questions
+              </h1>
+            </div>
+        </div>
+    
+        <div class="row w-100">
+            <div class="col-12 text-center question-container">
+                <h2 class="display-5 display-sm-4 display-md-3 display-lg-2 mt-4 mt-sm-3 mt-md-2 mt-lg-1">My Sweetest Anna
+                    <br>
+                    Will you be my Valentine?
+                </h2>
+            </div>
+        </div>
+    <br>
+        <div class="row w-100">
+            <div class="col-12 text-center answer-container">
+
+                <div class="row w-100 mb-3 no-gutters">
+                    <div class="col-6 p-3">
+                        <button class="btn btn-primary btn-tl" onclick="handleYes()">Yes</button>
+                    </div>
+                    <div class="col-6 p-3">
+                        <button class="btn btn-primary btn-tr" onclick="showNoModel()">No</button>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    
+    <div class="row w-100 custom-height-row">
+        <div class="col-12 d-flex justify-content-center img-container">
+            <img class="togetherForever" src="../figmaAssets/togetherForever.JPG" class="reg-img">
+        </div>
+    </div>
+
+    <div class="row w-100">
+        <div class="col-12 text-center quest-container">
+            <h1></h1>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">You would put this over that?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    I highly recommend you to participate.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="NoModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Are you sure?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <img src="../figmaAssets/chrisArm.jpg" class="reg-img">
+                    I highly recommend you to reconsider.
+                    <br>
+                    Be a good girl and say Yes
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../jsfunctions/swapContent.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
